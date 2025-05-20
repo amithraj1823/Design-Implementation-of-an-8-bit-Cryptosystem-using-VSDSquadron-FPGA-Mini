@@ -24,7 +24,7 @@
 ## I/O Interface Specifications
 | Sl No | Pin No                           | Description           |
 |:------|:----------------------------------|:----------------------|
-| 01    | 38                                | Select line           |
+| 01    | 13                                | Select line           |
 | 02    | [2, 3, 4, 6, 9, 10, 11, 12]       | Data input pins       |
 | 03    | [37, 36, 35, 34, 32, 31, 28, 27]  | Data output pins      |
-
+| 04    | [38, 42, 43, 44, 45, 46, 47, 48]  | Data output pins      |
