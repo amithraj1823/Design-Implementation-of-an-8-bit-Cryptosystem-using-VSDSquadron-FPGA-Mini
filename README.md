@@ -5,3 +5,5 @@
 
 ## Block Diagram
 ![image](https://github.com/user-attachments/assets/ec67f8e7-faae-4ef2-928f-8162555f6243)
+
+## Flowchart
