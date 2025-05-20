@@ -8,3 +8,5 @@
 
 ## Flowchart
 ![image](https://github.com/user-attachments/assets/1aacc824-bfd2-4355-b717-02211c7e593f)
+
+<img src="docs/block_diagram.png" width="400"/>
