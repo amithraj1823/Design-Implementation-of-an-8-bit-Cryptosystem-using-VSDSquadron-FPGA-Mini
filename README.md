@@ -10,7 +10,15 @@
 <img src="docs/flowchart.png" width="600"/>
 
 ## Verilog modules
-| Sl No | Module Name | Description |
-|-------|-------------|-------------|
-| 01 | Data        | Data        |
-| 02 | Data        | Data        |
+| Sl No | Module Name               | Description                                           |
+|:------|:--------------------------|:------------------------------------------------------|
+| 01    | top                       | Main logic code                                       |
+| 02    | bitwise_xor               | Performs bitwise XOR operation                        |
+| 03    | substitution_block        | Similar to S-box used in AES cryptography             |
+| 04    | inverse_substitution_block| Inverse S-box                                         |
+| 05    | reversible_block          | Combination of reversible logic gates and shift operations |
+| 06    | circular_right_shift      | Performs circular right shift operation               |
+| 07    | circular_left_shift       | Performs circular left shift operation                |
+| 08    | mux2to1                   | 2:1 Mux to choose between encryption and decryption   |
+
+
