@@ -4,7 +4,7 @@
 3. Target output:A select line is used to multiplex the system to perform Encryption or Decryption operation as shown in the block Diagram and an initial key is required to encrypt or decrypt the data.
 
 ## Block Diagram
-<img src="docs/block_diagram.png" width="500"/>
+<img src="docs/block_diagram.png" width="600"/>
 
 ## Flowchart
 <img src="docs/flowchart.png" width="600"/>
