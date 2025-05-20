@@ -10,7 +10,7 @@
 <img src="docs/flowchart.png" width="600"/>
 
 ## Verilog modules
-| Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| Row 1    | Data     | Data     |
-| Row 2    | Data     | Data     |
+| Sl No | Module Name | Description |
+|-------|-------------|-------------|
+| 01 | Data        | Data        |
+| 02 | Data        | Data        |
