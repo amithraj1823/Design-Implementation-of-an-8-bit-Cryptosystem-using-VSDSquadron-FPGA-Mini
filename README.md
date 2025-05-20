@@ -9,4 +9,4 @@
 ## Flowchart
 <img src="docs/flowchart.png" width="600"/>
 
-
+## Verilog modules
