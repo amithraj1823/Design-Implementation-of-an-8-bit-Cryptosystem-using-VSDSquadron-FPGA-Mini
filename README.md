@@ -21,4 +21,10 @@
 | 07    | circular_left_shift       | Performs circular left shift operation                |
 | 08    | mux2to1                   | 2:1 Mux to choose between encryption and decryption   |
 
+## I/O Interface Specifications
+| Sl No | Pin No                           | Description           |
+|:------|:----------------------------------|:----------------------|
+| 01    | 38                                | Select line           |
+| 02    | [2, 3, 4, 6, 9, 10, 11, 12]       | Data input pins       |
+| 03    | [37, 36, 35, 34, 32, 31, 28, 27]  | Data output pins      |
 
