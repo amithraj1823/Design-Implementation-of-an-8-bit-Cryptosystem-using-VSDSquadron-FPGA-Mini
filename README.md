@@ -24,7 +24,7 @@
 | Sl No | Port Name | State | Operation                         |
 |:------|:----------|:------|:---------------------------------|
 | 01    | Sel       | HIGH  | Encryption Operation is performed |
-| 02    | Sel       | LOW   | Encryption Operation is performed |
+| 02    | Sel       | LOW   | Decryption Operation is performed |
 
 ## I/O Interface Specifications
 | Sl No | Pin No                            | Description             |
