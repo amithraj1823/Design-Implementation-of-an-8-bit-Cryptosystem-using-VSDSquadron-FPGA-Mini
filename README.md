@@ -34,3 +34,5 @@
 | 03    | [37, 36, 35, 34, 32, 31, 28, 27]  | Data output pins        |
 | 04    | [38, 42, 43, 44, 45, 46, 47, 48]  | Initial Key (Secret key)|
 
+## Vivado generated RTL Schematic
+<img src="docs/RTL Schematic.png" width="600"/>
