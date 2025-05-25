@@ -11,7 +11,7 @@
 
 ## Verilog modules
 | Sl No | Module Name               | Description                                           |
-|:------|:--------------------------|:------------------------------------------------------|
+|:------|:--------------------------|:-----------------------------------------------------|
 | 01    | top                       | Main logic code                                       |
 | 02    | bitwise_xor               | Performs bitwise XOR operation                        |
 | 03    | substitution_block        | Similar to S-box used in AES cryptography             |
@@ -20,10 +20,17 @@
 | 06    | circular_right_shift(CRS) | Performs circular right shift operation               |
 | 07    | circular_left_shift(CLS)  | Performs circular left shift operation                |
 
+## Working Operation
+| Sl No | Port Name | State | Operation                         |
+|:------|:----------|:------|:---------------------------------|
+| 01    | Sel       | HIGH  | Encryption Operation is performed |
+| 02    | Sel       | LOW   | Encryption Operation is performed |
+
 ## I/O Interface Specifications
-| Sl No | Pin No                           | Description           |
-|:------|:----------------------------------|:----------------------|
-| 01    | 13                                | Select line           |
-| 02    | [2, 3, 4, 6, 9, 10, 11, 12]       | Data input pins       |
-| 03    | [37, 36, 35, 34, 32, 31, 28, 27]  | Data output pins      |
+| Sl No | Pin No                            | Description             |
+|:------|:----------------------------------|:---------------------  |
+| 01    | 13                                | Select line             |
+| 02    | [2, 3, 4, 6, 9, 10, 11, 12]       | Data input pins         |
+| 03    | [37, 36, 35, 34, 32, 31, 28, 27]  | Data output pins        |
 | 04    | [38, 42, 43, 44, 45, 46, 47, 48]  | Initial Key (Secret key)|
+
