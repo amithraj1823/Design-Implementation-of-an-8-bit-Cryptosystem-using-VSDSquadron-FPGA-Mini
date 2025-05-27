@@ -46,11 +46,11 @@
 ### Encryption                                     
 <img src="hardware/encryption.jpg" width="600"/>   
 
-### Logic Analyzer
+### Logic Analyzer (o/p)
 <img src="hardware/logic_enc.png" width="600"/> 
 
 ### Decryption                                     
 <img src="hardware/decryption.jpg" width="600"/>   
 
-### Logic Analyzer
+### Logic Analyzer (o/p)
 <img src="hardware/logic_dec.png" width="600"/> 
