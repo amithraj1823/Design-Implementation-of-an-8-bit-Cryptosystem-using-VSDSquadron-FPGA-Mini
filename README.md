@@ -39,3 +39,5 @@
 
 ## Simulation Results (Vivado)
 <img src="hardware/Vivado Sim/sim_res1.png" width="600"/>
+
+<img src="hardware/Vivado Sim/sim_res2.png" width="600"/>
