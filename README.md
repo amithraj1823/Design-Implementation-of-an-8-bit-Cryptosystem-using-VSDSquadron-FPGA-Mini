@@ -43,4 +43,5 @@
 <img src="hardware/Vivado Sim/sim_res2.png" width="600"/>
 
 ## Hardware Implementation
-### Encryption
+### Encryption                                     ### Logic Analyzer
+<img src="hardware/encryption.png" width="600"/>   <img src="hardware/logic_enc.png" width="600"/> 
