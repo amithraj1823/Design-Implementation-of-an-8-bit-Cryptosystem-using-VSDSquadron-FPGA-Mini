@@ -35,4 +35,3 @@
 | 04    | [38, 42, 43, 44, 45, 46, 47, 48]  | Initial Key (Secret key)|
 
 ## Vivado generated RTL Schematic
-<img src="docs/RTL Schematic.png" width="600"/>
