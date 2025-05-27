@@ -44,7 +44,13 @@
 
 ## Hardware Implementation
 ### Encryption                                     
-<img src="hardware/encryption.png" width="600"/>   
+<img src="hardware/encryption.jpg" width="600"/>   
 
 ### Logic Analyzer
 <img src="hardware/logic_enc.png" width="600"/> 
+
+### Decryption                                     
+<img src="hardware/decryption.jpg" width="600"/>   
+
+### Logic Analyzer
+<img src="hardware/logic_dec.png" width="600"/> 
