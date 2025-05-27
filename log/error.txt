@@ -1,0 +1,69 @@
+yosys -DCPU_FREQ=20 -q -p "synth_ice40 -abc9 -device u -dsp -top top -json top.json" top.v
+nextpnr-ice40 --force --json top.json --pcf VSDSquadronFM.pcf --asc top.asc --freq 12 --up5k --package sg48 --opt-timing
+Info: constrained 'sel' to bel 'X19/Y0/io0'
+Info: constrained 'i7' to bel 'X8/Y0/io0'
+Info: constrained 'i6' to bel 'X9/Y0/io1'
+Info: constrained 'i5' to bel 'X9/Y0/io0'
+Info: constrained 'i4' to bel 'X13/Y0/io1'
+Info: constrained 'i3' to bel 'X15/Y0/io0'
+Info: constrained 'i2' to bel 'X16/Y0/io0'
+Info: constrained 'i1' to bel 'X17/Y0/io0'
+Info: constrained 'i0' to bel 'X18/Y0/io0'
+Info: constrained 'o7' to bel 'X13/Y31/io0'
+Info: constrained 'o6' to bel 'X9/Y31/io1'
+Info: constrained 'o5' to bel 'X12/Y31/io1'
+Info: constrained 'o4' to bel 'X13/Y31/io1'
+Info: constrained 'o3' to bel 'X16/Y31/io0'
+Info: constrained 'o2' to bel 'X16/Y31/io1'
+Info: constrained 'o1' to bel 'X17/Y31/io0'
+Info: constrained 'o0' to bel 'X18/Y31/io1'
+Info: constrained 'k7' to bel 'X8/Y31/io1'
+Info: constrained 'k6' to bel 'X8/Y31/io0'
+Info: constrained 'k5' to bel 'X9/Y31/io0'
+Info: constrained 'k4' to bel 'X6/Y0/io1'
+Info: constrained 'k3' to bel 'X7/Y0/io1'
+Info: constrained 'k2' to bel 'X5/Y0/io0'
+Info: constrained 'k1' to bel 'X6/Y0/io0'
+Info: constrained 'k0' to bel 'X7/Y0/io0'
+
+Info: Packing constants..
+Info: Packing IOs..
+Info: Packing LUT-FFs..
+Info:     6759 LCs used as LUT4 only
+Info:        0 LCs used as LUT4 and DFF
+Info: Packing non-LUT FFs..
+Info:        0 LCs used as DFF only
+Info: Packing carries..
+Info:        2 LCs used as CARRY only
+Info: Packing indirect carry+LUT pairs...
+Info:        1 LUTs merged into carry LCs
+Info: Packing RAMs..
+Info: Placing PLLs..
+Info: Packing special functions..
+Info: Packing PLLs..
+Info: Promoting globals..
+Info: Constraining chains...
+Info:        2 LCs used to legalise carry chains.
+Info: Checksum: 0xbf6b4d89
+
+Info: Device utilisation:
+Info: 	         ICESTORM_LC:    6764/   5280   128%
+Info: 	        ICESTORM_RAM:       0/     30     0%
+Info: 	               SB_IO:      25/     96    26%
+Info: 	               SB_GB:       0/      8     0%
+Info: 	        ICESTORM_PLL:       0/      1     0%
+Info: 	         SB_WARMBOOT:       0/      1     0%
+Info: 	        ICESTORM_DSP:       0/      8     0%
+Info: 	      ICESTORM_HFOSC:       0/      1     0%
+Info: 	      ICESTORM_LFOSC:       0/      1     0%
+Info: 	              SB_I2C:       0/      2     0%
+Info: 	              SB_SPI:       0/      2     0%
+Info: 	              IO_I3C:       0/      2     0%
+Info: 	         SB_LEDDA_IP:       0/      1     0%
+Info: 	         SB_RGBA_DRV:       0/      1     0%
+Info: 	      ICESTORM_SPRAM:       0/      4     0%
+
+Info: Placed 25 cells based on constraints.
+ERROR: Unable to place cell 'o3_SB_LUT4_O_I2_SB_LUT4_O_I1_SB_LUT4_O_I2_SB_LUT4_O_I1_SB_LUT4_O_I3_SB_LUT4_O_I2_SB_LUT4_I3_I2_SB_LUT4_O_I1_SB_LUT4_O_1_I2_SB_LUT4_O_I3_SB_LUT4_I2_I3_SB_LUT4_I3_O_SB_LUT4_O_I3_SB_LUT4_I2_O_SB_LUT4_O_I3_SB_LUT4_O_1_I2_SB_LUT4_O_I1_SB_LUT4_O_I3_SB_LUT4_O_I0_SB_LUT4_I2_I3_SB_LUT4_I3_O_SB_LUT4_I2_O_SB_LUT4_I2_O_SB_LUT4_O_1_I1_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_I3_O_SB_LUT4_O_1_I2_SB_LUT4_O_I3_SB_LUT4_I2_O_SB_LUT4_O_LC', no BELs remaining to implement cell type 'ICESTORM_LC'
+0 warnings, 1 error
+make: *** [Makefile:16: build] Error 255
